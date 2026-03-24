@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ember & Oak – Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    body { font-family: 'Lato', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+  <!-- Navbar -->
+  <nav class="bg-[#1a3a2a] text-stone-100">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-2xl font-bold tracking-wide" style="font-family:'Playfair Display',serif;">Ember &amp; Oak</a>
+      <ul class="flex gap-8 text-sm font-medium tracking-wider uppercase">
+        <li><a href="index.html" class="text-amber-400">Home</a></li>
+        <li><a href="menu.html" class="hover:text-amber-400">Menu</a></li>
+        <li><a href="about.html" class="hover:text-amber-400">About</a></li>
+        <li><a href="contact.html" class="hover:text-amber-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-[#1a3a2a] text-stone-100 py-24 px-6 text-center">
+    <p class="text-amber-400 uppercase tracking-widest text-sm mb-3">Welcome to</p>
+    <h1 class="text-5xl font-bold mb-4">Ember &amp; Oak</h1>
+    <p class="text-stone-300 text-lg max-w-xl mx-auto mb-8">Wood-fired comfort food in the heart of the city. Honest ingredients, open flames, good company.</p>
+    <a href="menu.html" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-3 rounded text-sm uppercase tracking-widest font-medium">View Our Menu</a>
+  </section>
+
+  <!-- Why Us -->
+  <section class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Why Guests Love Us</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div class="bg-white rounded-lg p-8 shadow-sm border border-stone-100">
+        <div class="text-4xl mb-4">🔥</div>
+        <h3 class="text-xl font-semibold mb-2">Wood-Fired Kitchen</h3>
+        <p class="text-stone-500 text-sm">Every dish passes through our oak-fired oven for that unmistakable smoky depth of flavour.</p>
+      </div>
+      <div class="bg-white rounded-lg p-8 shadow-sm border border-stone-100">
+        <div class="text-4xl mb-4">🥬</div>
+        <h3 class="text-xl font-semibold mb-2">Farm Fresh Produce</h3>
+        <p class="text-stone-500 text-sm">We source our vegetables, meats, and dairy from local farms within 50 miles — every week.</p>
+      </div>
+      <div class="bg-white rounded-lg p-8 shadow-sm border border-stone-100">
+        <div class="text-4xl mb-4">🍷</div>
+        <h3 class="text-xl font-semibold mb-2">Curated Wine List</h3>
+        <p class="text-stone-500 text-sm">Our sommelier selects bottles that pair naturally with our seasonal menu. Old world and new.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opening Hours -->
+  <section class="bg-[#1a3a2a] text-stone-100 py-14 px-6">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Opening Hours</h2>
+      <table class="w-full text-sm text-stone-300">
+        <tbody>
+          <tr class="border-b border-stone-700">
+            <td class="py-3 text-left">Monday – Tuesday</td>
+            <td class="py-3 text-right text-stone-500">Closed</td>
+          </tr>
+          <tr class="border-b border-stone-700">
+            <td class="py-3 text-left">Wednesday – Thursday</td>
+            <td class="py-3 text-right">12:00 pm – 9:00 pm</td>
+          </tr>
+          <tr class="border-b border-stone-700">
+            <td class="py-3 text-left">Friday – Saturday</td>
+            <td class="py-3 text-right">12:00 pm – 11:00 pm</td>
+          </tr>
+          <tr>
+            <td class="py-3 text-left">Sunday</td>
+            <td class="py-3 text-right">11:00 am – 8:00 pm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Ready to Book a Table?</h2>
+    <p class="text-stone-500 mb-6">Call us or stop by — we'd love to have you.</p>
+    <a href="contact.html" class="bg-stone-900 hover:bg-stone-700 text-white px-8 py-3 rounded text-sm uppercase tracking-widest font-medium">Get in Touch</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#1a3a2a] text-stone-400 text-center text-sm py-6">
+    <p>&copy; 2026 Ember &amp; Oak Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
