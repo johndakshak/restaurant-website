@@ -16,9 +16,9 @@
 
   <!-- Navbar -->
   <nav class="bg-[#1a3a2a] text-stone-100">
-    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="index.html" class="text-2xl font-bold tracking-wide" style="font-family:'Playfair Display',serif;">Ember &amp; Oak</a>
-      <ul class="flex gap-8 text-sm font-medium tracking-wider uppercase">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-y-3">
+      <a href="index.html" class="text-xl sm:text-2xl font-bold tracking-wide" style="font-family:'Playfair Display',serif;">Ember &amp; Oak</a>
+      <ul class="flex gap-4 sm:gap-8 text-xs sm:text-sm font-medium tracking-wider uppercase">
         <li><a href="index.html" class="text-amber-400">Home</a></li>
         <li><a href="menu.html" class="hover:text-amber-400">Menu</a></li>
         <li><a href="about.html" class="hover:text-amber-400">About</a></li>
@@ -30,14 +30,14 @@
   <!-- Hero -->
   <section class="bg-[#1a3a2a] text-stone-100 py-24 px-6 text-center">
     <p class="text-amber-400 uppercase tracking-widest text-sm mb-3">Welcome to</p>
-    <h1 class="text-5xl font-bold mb-4">Ember &amp; Oak</h1>
-    <p class="text-stone-300 text-lg max-w-xl mx-auto mb-8">Wood-fired comfort food in the heart of the city. Honest ingredients, open flames, good company.</p>
+    <h1 class="text-3xl sm:text-5xl font-bold mb-4">Ember &amp; Oak</h1>
+    <p class="text-stone-300 text-base sm:text-lg max-w-xl mx-auto mb-8">Wood-fired comfort food in the heart of the city. Honest ingredients, open flames, good company.</p>
     <a href="menu.html" class="border border-solid border-amber-400 hover:bg-amber-600 hover:border-amber-600 text-white px-8 py-3 rounded text-sm uppercase tracking-widest font-medium">View Our Menu</a>
   </section>
 
   <!-- Why Us -->
   <section class="py-16 px-6 max-w-5xl mx-auto">
-    <h2 class="text-3xl font-bold text-center mb-12">Why Guests Love Us</h2>
+    <h2 class="text-2xl sm:text-3xl font-bold text-center mb-12">Why Guests Love Us</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
       <div class="bg-white rounded-lg p-8 shadow-sm border border-stone-100">
         <div class="text-4xl mb-4">🔥</div>
@@ -86,88 +86,93 @@
 
   <!-- CTA -->
   <section class="py-16 px-6 text-center">
-    <h2 class="text-3xl font-bold mb-4">Ready to Book a Table?</h2>
+    <h2 class="text-2xl sm:text-3xl font-bold mb-4">Ready to Book a Table?</h2>
     <p class="text-stone-500 mb-6">Call us or stop by — we'd love to have you.</p>
     <a href="contact.html" class="bg-[#1a3a2a] hover:bg-stone-700 text-white px-8 py-3 rounded text-sm uppercase tracking-widest font-medium">Get in Touch</a>
   </section>
 
   <!-- Footer -->
-    <footer class="bg-[#1a3a2a] text-white text-sm py-6">
+  <footer class="bg-[#1a3a2a] text-white text-sm py-6">
+    <div>
+      <!-- Top section: logo + links -->
+      <div class="flex flex-col md:flex-row md:justify-between px-5 md:pr-24 pt-10 gap-10">
+
+        <!-- Logo -->
         <div>
-            <div class="flex justify-between pl-5 pr-24 pt-10">
-                <div class="">
-                    <img src="/dist/img/logo-full.svg" alt="" class="w-52">
-                    <a href="index.html" class="text-2xl font-bold tracking-wide" style="font-family:'Playfair Display',serif;">Ember &amp; Oak</a>
-                    
-                </div>
-                
-                <div class="flex gap-20 text-white">
-                    <div>
-                        <h3 class="font-bold text-white text-sm">Learning</h3>
-                        <ul class="text-sm leading-10">
-                            <li class="hover:text-amber-400 cursor-pointer">Features</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-sm">Resources</h3>
-                        <ul class="text-sm leading-10">
-                            <li class="hover:text-amber-400 cursor-pointer">About</li>
-                            <li class="hover:text-amber-400 cursor-pointer">Blog</li>
-                            <li class="hover:text-amber-400 cursor-pointer">Chengelog</li>
-                            <li class="hover:text-amber-400 cursor-pointer">Enterprise</li>
-                            <li class="hover:text-amber-400 cursor-pointer">Pricing</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-sm">Policy</h3>
-                        <ul class="text-sm leading-10">
-                            <li class="hover:text-amber-400 cursor-pointer">Terms of use</li>
-                            <li class="hover:text-amber-400 cursor-pointer">Privacy</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="flex items-center justify-between pl-5 pr-5 pb-10  mt-10">
-
-                <div class="flex items-center text-white gap-10 border border-spacing-1 border-white w-32 p-1 rounded-sm hover:bg- cursor-pointer">
-                    <div class="flex gap-2 items-center">
-                        <i class='bx bx-globe'></i>
-                        <span class="text-sm hover:text-amber-400">Eglish</span>
-                    </div>
-                    <div>
-                        <i class='bx bx-chevron-down'></i>
-                    </div>
-                </div>
-
-                <div class="text-white flex gap-5">
-                    <div class="text-2xl border border-white py-2 px-3 rounded-3xl cursor-pointer">
-                        <i class='bx bxl-linkedin-square'></i>
-                    </div>
-                    <div class="text-2xl border border-white py-2 px-3 rounded-3xl cursor-pointer">
-                        <i class='bx bxl-discord-alt'></i>
-                    </div>
-                    <div class="text-2xl border border-white py-2 px-3 rounded-3xl cursor-pointer">
-                        <i class='bx bxl-twitter'></i>
-                    </div>
-                    <div class="text-2xl border border-white py-2 px-3 rounded-3xl cursor-pointer">
-                        <i class='bx bxl-facebook-circle'></i>
-                    </div>
-                </div>
-            </div>
+          <img src="/dist/img/logo-full.svg" alt="" class="w-52">
+          <a href="index.html" class="text-2xl font-bold tracking-wide" style="font-family:'Playfair Display',serif;">Ember &amp; Oak</a>
         </div>
 
+        <!-- Links -->
+        <div class="flex flex-nowrap gap-6 sm:gap-20 text-white">
+          <div>
+            <h3 class="font-bold text-white text-sm">Learning</h3>
+            <ul class="text-sm leading-10">
+              <li class="hover:text-amber-400 cursor-pointer">Features</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold text-sm">Resources</h3>
+            <ul class="text-sm leading-10">
+              <li class="hover:text-amber-400 cursor-pointer">About</li>
+              <li class="hover:text-amber-400 cursor-pointer">Blog</li>
+              <li class="hover:text-amber-400 cursor-pointer">Changelog</li>
+              <li class="hover:text-amber-400 cursor-pointer">Enterprise</li>
+              <li class="hover:text-amber-400 cursor-pointer">Pricing</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold text-sm">Policy</h3>
+            <ul class="text-sm leading-10">
+              <li class="hover:text-amber-400 cursor-pointer">Terms of use</li>
+              <li class="hover:text-amber-400 cursor-pointer">Privacy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-        <div class="pl-5 pr-5 pb-5">
-            <hr>
+      <!-- Bottom section: language + socials -->
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between px-5 pb-10 mt-10 gap-6">
+
+        <!-- Language selector -->
+        <div class="flex items-center text-white gap-10 border border-white w-32 p-1 rounded-sm cursor-pointer">
+          <div class="flex gap-2 items-center">
+            <i class='bx bx-globe'></i>
+            <span class="text-sm hover:text-amber-400">English</span>
+          </div>
+          <div>
+            <i class='bx bx-chevron-down'></i>
+          </div>
         </div>
 
-        <!-- COPYRIGHT SECTION -->
- 
-        <div class="text-center text-white pb-5 text-xs font-bold">
-            <p>&copy; 2026 Ember &amp; Oak Restaurant. All rights reserved.</p>
+        <!-- Social icons -->
+        <div class="text-white flex flex-wrap gap-4 sm:gap-5">
+          <div class="text-2xl border border-white py-2 px-3 rounded-3xl cursor-pointer">
+            <i class='bx bxl-linkedin-square'></i>
+          </div>
+          <div class="text-2xl border border-white py-2 px-3 rounded-3xl cursor-pointer">
+            <i class='bx bxl-discord-alt'></i>
+          </div>
+          <div class="text-2xl border border-white py-2 px-3 rounded-3xl cursor-pointer">
+            <i class='bx bxl-twitter'></i>
+          </div>
+          <div class="text-2xl border border-white py-2 px-3 rounded-3xl cursor-pointer">
+            <i class='bx bxl-facebook-circle'></i>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="px-5 pb-5">
+      <hr>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center text-white pb-5 text-xs font-bold">
+      <p>&copy; 2026 Ember &amp; Oak Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
