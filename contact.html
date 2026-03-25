@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ember & Oak – Contact</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    body { font-family: 'Lato', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+  <!-- Navbar -->
+  <nav class="bg-[#1a3a2a] text-stone-100">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-2xl font-bold tracking-wide" style="font-family:'Playfair Display',serif;">Ember &amp; Oak</a>
+      <ul class="flex gap-8 text-sm font-medium tracking-wider uppercase">
+        <li><a href="index.html" class="hover:text-amber-400">Home</a></li>
+        <li><a href="menu.html" class="hover:text-amber-400">Menu</a></li>
+        <li><a href="about.html" class="hover:text-amber-400">About</a></li>
+        <li><a href="contact.html" class="text-amber-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="bg-[#1a3a2a] text-stone-100 py-14 px-6 text-center">
+    <h1 class="text-4xl font-bold mb-2">Contact Us</h1>
+    <p class="text-stone-400 text-sm">We'd love to hear from you.</p>
+  </section>
+
+  <!-- Contact Info + Form -->
+  <section class="max-w-5xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-2 gap-12">
+
+    <!-- Info -->
+    <div>
+      <h2 class="text-2xl font-bold mb-6">Find Us</h2>
+
+      <div class="mb-5">
+        <p class="text-xs uppercase tracking-widest text-stone-400 mb-1">Address</p>
+        <p class="text-stone-700">14 Merchant Street<br/>Old Town, Lagos, NG 101</p>
+      </div>
+
+      <div class="mb-5">
+        <p class="text-xs uppercase tracking-widest text-stone-400 mb-1">Phone</p>
+        <p class="text-stone-700">+234 901 234 5678</p>
+      </div>
+
+      <div class="mb-5">
+        <p class="text-xs uppercase tracking-widest text-stone-400 mb-1">Email</p>
+        <p class="text-stone-700">hello@emberandoak.com</p>
+      </div>
+
+      <div>
+        <p class="text-xs uppercase tracking-widest text-stone-400 mb-3">Opening Hours</p>
+        <table class="w-full text-sm text-stone-600">
+          <tbody>
+            <tr class="border-b border-stone-200">
+              <td class="py-2">Monday – Tuesday</td>
+              <td class="py-2 text-right text-stone-400">Closed</td>
+            </tr>
+            <tr class="border-b border-stone-200">
+              <td class="py-2">Wednesday – Thursday</td>
+              <td class="py-2 text-right">12:00 pm – 9:00 pm</td>
+            </tr>
+            <tr class="border-b border-stone-200">
+              <td class="py-2">Friday – Saturday</td>
+              <td class="py-2 text-right">12:00 pm – 11:00 pm</td>
+            </tr>
+            <tr>
+              <td class="py-2">Sunday</td>
+              <td class="py-2 text-right">11:00 am – 8:00 pm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div>
+      <h2 class="text-2xl font-bold mb-6">Send a Message</h2>
+      <div class="space-y-4">
+        <div>
+          <label class="block text-sm text-stone-500 mb-1">Full Name</label>
+          <input type="text" placeholder="Your name" class="w-full border border-stone-200 rounded px-4 py-2 text-sm focus:outline-none focus:border-amber-400"/>
+        </div>
+        <div>
+          <label class="block text-sm text-stone-500 mb-1">Email Address</label>
+          <input type="email" placeholder="you@example.com" class="w-full border border-stone-200 rounded px-4 py-2 text-sm focus:outline-none focus:border-amber-400"/>
+        </div>
+        <div>
+          <label class="block text-sm text-stone-500 mb-1">Message</label>
+          <textarea rows="5" placeholder="How can we help?" class="w-full border border-stone-200 rounded px-4 py-2 text-sm focus:outline-none focus:border-amber-400"></textarea>
+        </div>
+        <button type="button" class="bg-stone-900 hover:bg-stone-700 text-white px-6 py-2 rounded text-sm uppercase tracking-widest font-medium">Send Message</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Google Maps Embed -->
+  <section class="max-w-5xl mx-auto px-6 pb-16">
+    <h2 class="text-2xl font-bold mb-6">Our Location</h2>
+    <div class="rounded-lg overflow-hidden border border-stone-200 shadow-sm">
+      <iframe
+        title="Ember and Oak Location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7290985206!2d3.3792!3d6.4550!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1234567890"
+        width="100%"
+        height="380"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#1a3a2a] text-stone-400 text-center text-sm py-6">
+    <p>&copy; 2026 Ember &amp; Oak Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
